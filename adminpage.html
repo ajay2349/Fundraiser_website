@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.bg {
+  /* The image used */
+  background-image: url("pic.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.admin_act {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:20px;
+}
+.admin_header {
+  padding:05px;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+}
+.event_button {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:30px;
+  border-radius:15px;
+}
+.logout_button {
+  margin:30px;
+}
+p {
+  color: white;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+<div class="bg">
+	<div class="admin_header">
+      <h1 style="text-align:center;color:Orange">Admin Page</h1>
+      <button class="logout_button"><a href="logout.php">Log Out</a></button>
+    </div>  
+    <p>Donating to the causes you care about not only benefits the charities themselves, it can be deeply rewarding for you too. Millions of people give to charity on a regular basis to support causes they believe in, as well as for the positive effect it has on their own lives.</p>
+    <p>We all need a helping hand from time to time. It is often our communities that support us in those hard times, and now it is our turn to support them, as the rewards of pitching in and helping those in need can be one of the most enriching feelings in life – worth much more than money.</p>
+	<div class="admin_act">
+      <a href="createevent.html" class="event_button" style="background-color:green">Create Event</a>
+      <a href="index.php" class="event_button" style="background-color:blue">View Events</a>
+      <a href="deleteevent.php" class="event_button" style="background-color:red">Delete Event</a>
+    </div>
+</div>
+</body>
+</html>

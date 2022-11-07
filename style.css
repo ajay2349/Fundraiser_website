@@ -1,0 +1,177 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+}
+.icon {
+    margin: 15px;
+    color: coral;
+}
+.bg {
+    /* The image used */
+    background-image: url("bg.jpeg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.menu-bar {
+    background: transparent;
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px 40px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #f29f05;
+    font-weight:bold;
+}
+.active, .menu-bar ul li:hover {
+    background: green;
+    border-radius: 3px;
+}
+.submenu {
+    display: none;
+}
+.menu-bar ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .submenu ul {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .submenu ul li {
+    width: 220px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .submenu ul li:last-child {
+    border-bottom: none;
+}
+
+.submenu1 {
+    display: none;
+}
+.hover_me:hover .submenu1 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: green;
+}
+
+.description {
+    color: black;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 225px;
+    margin: 0 15px;
+    text-align: center;
+    font-family: arial;
+    background-color: #fff;
+    overflow: hidden;
+}
+  
+.title {
+    color: grey;
+    font-size: 12px;
+}
+  
+button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+  
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.Natural-Calamities {
+    margin: 10px;
+}
+
+
+.menu-wrapper {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin: 1em auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.menu {
+	height: 300px;
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.item {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    padding: 1em;
+    margin:0 15px;
+    box-sizing: border-box;
+}
+
+.paddles {
+}
+.paddle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 3em;
+}
+.left-paddle {
+	left: 0;
+	opacity: 0.5;
+}
+.right-paddle {
+	right: 0;
+	opacity: 0.5;
+}
+.hidden {
+	display: none;
+}

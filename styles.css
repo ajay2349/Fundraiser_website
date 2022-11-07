@@ -1,0 +1,67 @@
+body {
+    background-image: url(donate1.jpeg);
+  }
+  
+  #pp{
+    border-radius: 30px; 
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  #pw{
+    border-radius: 50px;
+    background-color:purple;
+    width: 160px;
+    height: 40px; 
+    color: white; 
+    font-weight: bold;  
+   }
+  
+  .input-icons i { 
+    position: absolute; 
+  }
+  
+  .input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+  }
+  
+  .icon { 
+    padding: 13px; 
+    color: blue; 
+    min-width: 50px; 
+    text-align: right; 
+    right:0px;
+  } 
+  
+  .right {
+    width:40%;
+    position:fixed;
+  }
+  .x{
+    position: fixed;
+    top:110px;
+    right:160px;
+  }
+  .s{
+    position: fixed;
+    top:170px;
+    right:120px;
+  }
+  .y{
+    position: fixed;
+    top:250px;
+    right:50px;
+  }
+  .z{
+    position: fixed;
+    top:420px;
+    right:80px;
+  }
+  .t{
+    position: fixed;
+    top:390px;
+    right:150px;
+  }
+  
